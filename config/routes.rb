@@ -23,5 +23,9 @@ Rails.application.routes.draw do
 
   defaults format: :json do
     resources :users, only: [:index]
+
+    resources :movies, only: [:create, :show, :index, :destroy] do
+      resources :movie_user_reviews, only: [:create]
+    end
   end
 end
