@@ -30,4 +30,5 @@
 !/tmp/storage/.keep
 
 # Ignore master key for decrypting credentials and more.
-/config/master.key
+# WARNING: you should never commit master.key for your actual production app, I am doing this because this is just a sample app
+# /config/master.key
