@@ -4,7 +4,7 @@ This project shows how you can implement Impersonation aka "Login as x user" fea
 
 You can view all changes required to implement Impersonation in the PR [Impersonate User](https://github.com/coolprobn/impersonate-user-rails-api/pull/1/files)
 
-I have made use of [pretender gem](https://github.com/ankane/pretender) and extended it's functionality for this implementation.
+I have made the use of [pretender gem](https://github.com/ankane/pretender) and extended it's functionality for this implementation.
 
 ## Tested and working in
 
@@ -20,7 +20,6 @@ I have made use of [pretender gem](https://github.com/ankane/pretender) and exte
     ```bash
     git clone git@github.com:coolprobn/impersonate-user-rails-api.git
     cd impersonate-user-rails-api
-    git checkout impersonate-user
     ```
 
 2. Setup the application with gems and database records
